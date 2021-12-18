@@ -1,6 +1,6 @@
 {
   "name": "@selfage/closest_locale_finder",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Find the closest matching locale.",
   "repository": {
     "type": "git",
@@ -25,6 +25,8 @@
     "url": "https://github.com/selfage/closest_locale_finder/issues"
   },
   "homepage": "https://github.com/selfage/closest_locale_finder#readme",
+  "main": "./finder.js",
+  "types": "./finder.d.ts",
   "files": [
     "**/*.d.ts",
     "**/*.js",
