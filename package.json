@@ -1,0 +1,39 @@
+{
+  "name": "@selfage/closest_locale_finder",
+  "version": "0.0.1",
+  "description": "Find the closest matching locale.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/selfage/closest_locale_finder.git"
+  },
+  "keywords": [
+    "Locale",
+    "Language",
+    "Find",
+    "Lookup",
+    "Seek",
+    "Closest",
+    "Best",
+    "Match",
+    "Fit",
+    "Matching",
+    "TypeScript"
+  ],
+  "author": "Yuxuan Xie <teststaybaka@gmail.com> (http://www.yuxuanxie.com)",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/selfage/closest_locale_finder/issues"
+  },
+  "homepage": "https://github.com/selfage/closest_locale_finder#readme",
+  "files": [
+    "**/*.d.ts",
+    "**/*.js",
+    "!**/*_test.*",
+    "!test_data/**/*"
+  ],
+  "devDependencies": {
+    "@selfage/cli": "^2.3.2",
+    "@selfage/tsconfig": "^1.0.7",
+    "typescript": "^4.2.3"
+  }
+}
