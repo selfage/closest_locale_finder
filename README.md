@@ -10,6 +10,8 @@ Written in TypeScript and compiled to ES6 with inline source map & source. See [
 
 Lookup algorithm is based on [lookup-closest-locale](https://github.com/format-message/format-message/blob/v6.2.3/packages/lookup-closest-locale/index.js).
 
+E.g., given a list of supported locales, `['en', 'en-US']`, if you look for `en-GB`, the closest matching locale is `en`.
+
 ## Find from a map of localized texts
 
 ```TypeScript
